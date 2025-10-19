@@ -9,6 +9,25 @@ REQUISITOS:
 - Sistema operativo: Windows, Linux o macOS
 - Conexión a internet activa
 
+INSTALACIÓN DE K6 EN WINDOWS:
+
+Opción 1: Usando Scoop (recomendado)
+1. Asegúrate de tener Scoop instalado. Si no lo tienes, instálalo ejecutando en PowerShell:
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   irm get.scoop.sh | iex
+
+2. Instala K6 con:
+   scoop install k6
+
+Opción 2: Usando Chocolatey
+1. Instala Chocolatey si no lo tienes: https://chocolatey.org/install
+2. Luego ejecuta:
+   choco install k6
+
+Opción 3: Manual
+1. Descarga el binario desde: https://github.com/grafana/k6/releases
+2. Extrae el archivo y agrega la carpeta al PATH de tu sistema. 
+
 INSTRUCCIONES DE EJECUCIÓN:
 
 1. Clonar el repositorio:
